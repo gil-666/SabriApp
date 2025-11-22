@@ -12,6 +12,10 @@ export default function TabsLayout() {
         name="index"
         options={{ title: "Home",headerShown:false }}
       />
+      <Tabs.Screen
+        name="albums"
+        options={{ title: "Albums",headerShown:false }}
+      />
     </Tabs>
   );
 }
